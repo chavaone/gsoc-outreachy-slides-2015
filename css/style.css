@@ -1,1 +1,24 @@
 
+/* PORTADA */
+
+.reveal section#portada h1 {
+	font-size: 10vh;
+}
+
+.reveal section#portada img {
+	margin: 0px;
+	border: none;
+	box-shadow: 0px 0px 0px transparent;
+	background: transparent;
+}
+
+
+.reveal section#portada p {
+	font-size: 3vh;
+	display:block;
+	text-align: right;
+}
+
+.reveal section#portada p span.author {
+	font-weight: bold;
+}
