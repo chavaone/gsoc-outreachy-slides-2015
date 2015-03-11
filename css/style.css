@@ -69,3 +69,10 @@ li.custom-icon.twitter:before {
 	content: "\ea93";
 
 }
+
+.reveal div#slides-qrcode img {
+    margin: auto;
+    padding: 1em;
+    border: none;
+    box-shadow: none;
+}

@@ -30,6 +30,11 @@
             <h1>Summer of Code</h1> e <h1>Outreachy</h1>
             <p style="padding-top:1.5em;"><span class="author">Marcos Chavarría Teijeiro</span>&nbsp;(<a href="http://aquelando.info">aquelando.info</a>)</p>
           </section>
+
+	  <section>
+	    <h2 id="slides-url"></h2>
+	    <div id="slides-qrcode"></div>
+	  </section>
         </section>
 
 	<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
@@ -180,5 +185,10 @@
     <script src="reveal/lib/js/head.min.js"></script>
     <script src="reveal/js/reveal.min.js"></script>
     <script src="js/reveal_config.js"></script>
+    <script src="js/qrcode.min.js"></script>
+    <script>
+      document.getElementById("slides-url").innerHTML = document.URL;
+      new QRCode(document.getElementById("slides-qrcode"), document.URL);
+    </script>
   </body>
 </html>
