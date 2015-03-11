@@ -1,4 +1,15 @@
 
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-nepa0y');
+	src:url('../fonts/icomoon.eot?#iefix-nepa0y') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-nepa0y') format('woff'),
+		url('../fonts/icomoon.ttf?-nepa0y') format('truetype'),
+		url('../fonts/icomoon.svg?-nepa0y#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* PORTADA */
 
 .reveal section#portada h1 {
@@ -21,4 +32,40 @@
 
 .reveal section#portada p span.author {
 	font-weight: bold;
+}
+
+.reveal footer#fondo-logo img {
+    opacity:0.3;
+    position:absolute;
+    width: 50vw;
+    top: -15vw;
+    right: -15vw;
+}
+
+li.custom-icon {
+    list-style-type:none;
+}
+
+li.custom-icon:before {
+    margin-right: 0.5em;
+    font-family: "icomoon";
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+li.custom-icon.email:before {
+	content: "\ea86";
+}
+
+li.custom-icon.github:before{
+	content: "\eab1";
+}
+
+li.custom-icon.web:before {
+	content: "\eab6";
+}
+
+li.custom-icon.twitter:before {
+	content: "\ea93";
+
 }
